@@ -32,7 +32,6 @@ p {
 
 section {
     height: 100vh;
-    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,8 +164,14 @@ section {
     section {
         display: block;
         width: 100%;
+        position: relative;
+        top: -25px;
     }
     .blanket__wrapper {
         flex-direction: column;
+    }
+    .blanket__left-side {
+        max-width: 100%;
+        padding-top: 50px;
     }
 }
