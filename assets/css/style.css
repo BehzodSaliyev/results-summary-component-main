@@ -120,6 +120,13 @@ section {
     border-radius: 10px;
     font-size: 1rem;
 }
+.blanket__right-side_content_name {
+    display: flex;
+}
+
+.blanket__right-side_content_name img {
+    margin-right: 7px;
+}
 
 .blanket__right-side_content_line .blanket__right-side_content_name {
     margin-right: 5rem;
@@ -180,5 +187,8 @@ section {
         align-items: center;
         flex-direction: column;
         margin-bottom: 25px;
+    }
+    .blanket__right-side {
+        width: 100%;
     }
 }
